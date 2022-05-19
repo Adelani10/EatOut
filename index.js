@@ -1,7 +1,7 @@
 
 const hamburgerIcon = document.querySelector(".hamburger-icon")
-const finks = document.querySelector(".finks")
+const links = document.querySelector(".links")
 
 hamburgerIcon.addEventListener("click", function(){
-    finks.classList.toggle("showlinks")
+    links.classList.toggle("showlinks")
 })
